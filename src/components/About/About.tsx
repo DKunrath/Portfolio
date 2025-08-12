@@ -290,7 +290,7 @@ const About: React.FC = () => {
                   onClick={() => {
                     const link = document.createElement("a");
                     link.href = "/assets/skills/cv.pdf";
-                    link.download = "Guilherme_Jacobus_CV.pdf";
+                    link.download = "Rodrigo_Kunrath_CV.pdf";
                     document.body.appendChild(link);
                     link.click();
                     document.body.removeChild(link);

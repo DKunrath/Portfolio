@@ -24,8 +24,8 @@ const defaultSEO = {
     "Fullstack Developer specializing in React, Next.js, TypeScript, and modern web technologies. View my portfolio of innovative projects and get in touch for collaboration opportunities.",
   keywords:
     "Fullstack Developer, React Developer, Next.js Developer, TypeScript Developer, Web Developer, Frontend Developer, Backend Developer, Portfolio, Rodrigo Kunrath",
-  image: "https://www.guijacobus.com/assets/skills/profile.jpeg",
-  url: "https://www.guijacobus.com",
+  image: "https://portfolio-tan-sigma-e79hkh9jwa.vercel.app/assets/skills/profile.jpeg",
+  url: "https://portfolio-tan-sigma-e79hkh9jwa.vercel.app",
   type: "website" as const,
   author: "Rodrigo Kunrath",
 };
@@ -58,8 +58,8 @@ export const SEO: React.FC<SEOProps> = ({
     url: url,
     image: image,
     sameAs: [
-      "https://github.com/guijacobus2",
-      "https://www.linkedin.com/in/guilherme-jacobus/",
+      "https://github.com/Dkunrath",
+      "https://www.linkedin.com/in/rodrigo-kunrath-642884164/",
     ],
     knowsAbout: [
       "React",

@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
-const SITE_URL = "https://www.guijacobus.com/";
+const SITE_URL = "https://portfolio-tan-sigma-e79hkh9jwa.vercel.app/";
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const currentDate = new Date().toISOString().split("T")[0];
