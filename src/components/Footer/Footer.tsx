@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
             <a href="#" className="hover:underline text-[#6366f1]">
               Rodrigo Kunrath™
             </a>
-            . All Rights Reserved.
+            . Todos os Direitos Reservados.
           </span>
         </center>
       </div>

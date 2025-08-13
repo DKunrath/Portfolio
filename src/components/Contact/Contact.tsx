@@ -87,8 +87,8 @@ const Contact: React.FC = () => {
     },
     {
       icon: FaMapMarkerAlt,
-      label: "Location",
-      value: "Campo Bom, Brazil",
+      label: "Localização",
+      value: "Campo Bom, Brasil",
       href: "#",
       color: "text-green-400",
     },
@@ -107,7 +107,7 @@ const Contact: React.FC = () => {
             data-aos-duration="600"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#6366f1] to-[#a855f7]">
-              Let&apos;s Connect
+              Vamos nos conectar
             </h2>
           </div>
           <p
@@ -115,8 +115,10 @@ const Contact: React.FC = () => {
             data-aos="zoom-in-up"
             data-aos-duration="800"
           >
-            Have a project in mind or just want to chat? I&apos;d love to hear
-            from you!
+            <p>
+              Tem um projeto em mente ou apenas quer conversar? Adoraria ouvir
+              de você!
+            </p>
           </p>
         </div>
 
@@ -143,17 +145,17 @@ const Contact: React.FC = () => {
                     Rodrigo Kunrath
                   </h2>
                   <p className="text-transparent bg-clip-text bg-gradient-to-r from-[#6366f1] to-[#a855f7] font-semibold text-lg">
-                    Fullstack Developer
+                    Desenvolvedor Fullstack
                   </p>
                   <p className="text-gray-400 leading-relaxed">
-                    {`I'm always excited to discuss new opportunities, collaborate on interesting projects, or simply connect with fellow developers.`}
+                    {`Estou sempre empolgado para discutir novas oportunidades, colaborar em projetos interessantes ou simplesmente me conectar com outros desenvolvedores.`}
                   </p>
                 </div>
 
                 {/* Contact Methods */}
                 <div className="space-y-4">
                   <h3 className="font-semibold text-white text-lg">
-                    Get in touch
+                    Entre em contato
                   </h3>
                   <div className="space-y-3">
                     {contactMethods.map((method, index) => (
@@ -183,7 +185,7 @@ const Contact: React.FC = () => {
                 {/* Social Links */}
                 <div className="space-y-4">
                   <h3 className="font-semibold text-white text-lg">
-                    Connect with me
+                    Conecte-se comigo
                   </h3>
                   <div className="flex gap-4">
                     <a
@@ -235,11 +237,11 @@ const Contact: React.FC = () => {
               <div className="space-y-6">
                 <div>
                   <h3 className="text-2xl font-bold text-white mb-2">
-                    Send me a message
+                    Envie-me uma mensagem
                   </h3>
                   <p className="text-gray-400">
-                    Fill out the form below and I&apos;ll get back to you as
-                    soon as possible.
+                    Preencha o formulário abaixo e eu retornarei assim que
+                    possível.
                   </p>
                 </div>
 
@@ -247,7 +249,7 @@ const Contact: React.FC = () => {
                   <div className="grid md:grid-cols-2 gap-6">
                     <div className="space-y-2">
                       <label className="block text-sm font-semibold text-gray-300">
-                        Name *
+                        Nome *
                       </label>
                       <input
                         className="w-full border-2 border-white/10 rounded-xl p-4 focus:border-[#a855f7] focus:outline-none transition-colors duration-300 bg-white/5 text-white placeholder-gray-400"
@@ -256,7 +258,7 @@ const Contact: React.FC = () => {
                         value={formData.name}
                         onChange={handleInputChange}
                         required
-                        placeholder="Your full name"
+                        placeholder="Seu nome completo"
                       />
                     </div>
 
@@ -271,14 +273,14 @@ const Contact: React.FC = () => {
                         value={formData.email}
                         onChange={handleInputChange}
                         required
-                        placeholder="your.email@example.com"
+                        placeholder="seu.email@exemplo.com"
                       />
                     </div>
                   </div>
 
                   <div className="space-y-2">
                     <label className="block text-sm font-semibold text-gray-300">
-                      Subject
+                      Assunto
                     </label>
                     <input
                       className="w-full border-2 border-white/10 rounded-xl p-4 focus:border-[#a855f7] focus:outline-none transition-colors duration-300 bg-white/5 text-white placeholder-gray-400"
@@ -286,13 +288,13 @@ const Contact: React.FC = () => {
                       name="subject"
                       value={formData.subject}
                       onChange={handleInputChange}
-                      placeholder="What's this about?"
+                      placeholder="Sobre o que é isso?"
                     />
                   </div>
 
                   <div className="space-y-2">
                     <label className="block text-sm font-semibold text-gray-300">
-                      Message *
+                      Mensagem   *
                     </label>
                     <textarea
                       className="w-full border-2 border-white/10 rounded-xl p-4 focus:border-[#a855f7] focus:outline-none transition-colors duration-300 bg-white/5 text-white placeholder-gray-400 resize-none"
@@ -301,7 +303,7 @@ const Contact: React.FC = () => {
                       value={formData.message}
                       onChange={handleInputChange}
                       required
-                      placeholder="Tell me about your project or just say hello!"
+                      placeholder="Me fale sobre seu projeto ou apenas diga olá!"
                     ></textarea>
                   </div>
 
@@ -309,7 +311,7 @@ const Contact: React.FC = () => {
                     type="submit"
                     className="w-full p-4 text-white font-semibold text-lg rounded-xl bg-gradient-to-r from-[#6366f1] to-[#a855f7] hover:from-[#6366f1]/80 hover:to-[#a855f7]/80 shadow-lg shadow-purple-500/25 hover:shadow-xl hover:shadow-purple-500/40 hover:scale-105 transition-all duration-300"
                   >
-                    Send Message
+                    Enviar Mensagem
                   </button>
                 </form>
               </div>

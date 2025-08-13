@@ -20,7 +20,7 @@ const Header = memo(() => (
         data-aos="zoom-in-up"
         data-aos-duration="600"
       >
-        About Me
+        Sobre Mim
       </h2>
     </div>
     <p
@@ -29,7 +29,7 @@ const Header = memo(() => (
       data-aos-duration="800"
     >
       <Sparkles className="w-5 h-5 text-purple-400" />
-      Transforming ideas into digital experiences
+      Transformando ideias em experiências digitais
       <Sparkles className="w-5 h-5 text-purple-400" />
     </p>
   </div>
@@ -58,7 +58,7 @@ const ProfileImage = memo(() => (
           <Image
             src="/assets/skills/profile.png"
             alt="Profile"
-            className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:rotate-2"
+            className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:rotate-2 bg-[#FFFFFF]"
             loading="lazy"
             width={300}
             height={300}
@@ -151,7 +151,7 @@ const About: React.FC = () => {
       today.getFullYear() -
       startDate.getFullYear() -
       (today <
-      new Date(today.getFullYear(), startDate.getMonth(), startDate.getDate())
+        new Date(today.getFullYear(), startDate.getMonth(), startDate.getDate())
         ? 1
         : 0);
 
@@ -193,8 +193,8 @@ const About: React.FC = () => {
         icon: Code,
         color: "from-[#6366f1] to-[#a855f7]",
         value: totalProjects,
-        label: "Total Projects",
-        description: "Innovative web solutions crafted",
+        label: "Total de Projetos",
+        description: "Soluções web e aplicativos inovadores criados",
         animation: "fade-right",
       },
       //   {
@@ -209,8 +209,8 @@ const About: React.FC = () => {
         icon: Globe,
         color: "from-[#6366f1] to-[#a855f7]",
         value: YearExperience,
-        label: "Years of Experience",
-        description: "Continuous learning journey",
+        label: "Anos de Experiência",
+        description: "Jornada de aprendizado contínuo",
         animation: "fade-left",
       },
     ],
@@ -234,7 +234,7 @@ const About: React.FC = () => {
                 data-aos-duration="1000"
               >
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6366f1] to-[#a855f7]">
-                  Hello, I&apos;m
+                  Olá, eu sou
                 </span>
                 <span
                   className="block mt-2 text-gray-200"
@@ -250,11 +250,11 @@ const About: React.FC = () => {
                 data-aos="fade-right"
                 data-aos-duration="1500"
               >
-                Hello everyone, I&apos;m Rodrigo Kunrath and I live in
-                Campo Bom, Brazil. I&apos;m currently working as a Full
-                Stack Software Engineer at Cigam. I&apos;m passionate
-                about creating innovative web solutions and transforming ideas
-                into digital experiences.
+                Olá a todos, eu sou Rodrigo Kunrath e moro em
+                Campo Bom, Brasil. Atualmente trabalho como Engenheiro de
+                Software Full Stack na Cigam. Sou apaixonado
+                por criar soluções web inovadoras e transformar ideias
+                em experiências digitais impactantes.
               </p>
 
               {/* Quote Section */}
@@ -280,8 +280,8 @@ const About: React.FC = () => {
                 </div>
 
                 <blockquote className="text-gray-300 text-center lg:text-left italic font-medium text-sm relative z-10 pl-6">
-                  &ldquo;Leveraging AI as a professional tool, not a
-                  replacement.&rdquo;
+                  &ldquo;Aproveitando a IA como uma ferramenta profissional, não como
+                  substituta.&rdquo;
                 </blockquote>
               </div>
 
@@ -307,7 +307,7 @@ const About: React.FC = () => {
                     data-aos-duration="1000"
                     className="w-full lg:w-auto sm:px-6 py-2 sm:py-3 rounded-lg border border-[#a855f7]/50 text-[#a855f7] font-medium transition-all duration-300 hover:scale-105 flex items-center justify-center lg:justify-start gap-2 hover:bg-[#a855f7]/10 "
                   >
-                    <Code className="w-4 h-4 sm:w-5 sm:h-5" /> View Projects
+                    <Code className="w-4 h-4 sm:w-5 sm:h-5" /> Ver Projetos
                   </button>
                 </a>
               </div>

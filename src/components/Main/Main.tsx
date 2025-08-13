@@ -16,7 +16,7 @@ const StatusBadge = memo(() => (
       <div className="relative px-3 sm:px-4 py-2 rounded-full bg-black/40 backdrop-blur-xl border border-white/10">
         <span className="bg-gradient-to-r from-[#6366f1] to-[#a855f7] text-transparent bg-clip-text sm:text-sm text-[0.7rem] font-medium flex items-center">
           <Sparkles className="sm:w-4 sm:h-4 w-3 h-3 mr-2 text-blue-400" />
-          Ready to Innovate
+          Pronto para Inovar
         </span>
       </div>
     </div>
@@ -28,17 +28,17 @@ StatusBadge.displayName = "StatusBadge";
 const MainTitle = memo(() => (
   <div className="space-y-2" data-aos="fade-up" data-aos-delay="600">
     <h1 className="text-5xl sm:text-6xl md:text-6xl lg:text-6xl xl:text-7xl font-bold tracking-tight">
+      <span className="relative inline-block mt-2">
+        <span className="absolute -inset-2 bg-gradient-to-r from-[#6366f1] to-[#a855f7] blur-2xl opacity-20"></span>
+        <span className="relative bg-gradient-to-r from-[#6366f1] to-[#a855f7] bg-clip-text text-transparent">
+          Desenvolvedor
+        </span>
+      </span>
+      <br />
       <span className="relative inline-block">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#6366f1] to-[#a855f7] blur-2xl opacity-20"></span>
         <span className="relative bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
           Fullstack
-        </span>
-      </span>
-      <br />
-      <span className="relative inline-block mt-2">
-        <span className="absolute -inset-2 bg-gradient-to-r from-[#6366f1] to-[#a855f7] blur-2xl opacity-20"></span>
-        <span className="relative bg-gradient-to-r from-[#6366f1] to-[#a855f7] bg-clip-text text-transparent">
-          Developer
         </span>
       </span>
     </h1>
@@ -70,11 +70,10 @@ const CTAButton = memo<{
             {text}
           </span>
           <Icon
-            className={`w-4 h-4 text-gray-200 ${
-              text === "Contact"
-                ? "group-hover:translate-x-1"
-                : "group-hover:rotate-45"
-            } transform transition-all duration-300 z-10`}
+            className={`w-4 h-4 text-gray-200 ${text === "Contact"
+              ? "group-hover:translate-x-1"
+              : "group-hover:rotate-45"
+              } transform transition-all duration-300 z-10`}
           />
         </span>
       </div>
@@ -104,8 +103,8 @@ SocialLink.displayName = "SocialLink";
 const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
-const WORDS = ["Full Stack Developer", "Tech Enthusiast"];
-const TECH_STACK = ["React", "Next.js", "Node.js", "TypeScript"];
+const WORDS = ["Desenvolvedor Fullstack", "Entusiasta de Tecnologia", "Desenvolvedor de Aplicativos"];
+const TECH_STACK = ["React", "Next.js", "Node.js", "TypeScript", "React Native"];
 const SOCIAL_LINKS = [
   { icon: Github, link: "https://github.com/DKunrath" },
   { icon: Linkedin, link: "https://www.linkedin.com/in/rodrigo-kunrath-642884164" },
@@ -177,11 +176,10 @@ const Main: React.FC = () => {
       progressiveLoad: true,
     },
     style: { width: "100%", height: "100%" },
-    className: `w-full h-full transition-all duration-500 ${
-      isHovering
-        ? "scale-[180%] sm:scale-[160%] md:scale-[150%] lg:scale-[145%] rotate-2"
-        : "scale-[175%] sm:scale-[155%] md:scale-[145%] lg:scale-[140%]"
-    }`,
+    className: `w-full h-full transition-all duration-500 ${isHovering
+      ? "scale-[180%] sm:scale-[160%] md:scale-[150%] lg:scale-[145%] rotate-2"
+      : "scale-[175%] sm:scale-[155%] md:scale-[145%] lg:scale-[140%]"
+      }`,
   };
 
   return (
@@ -190,9 +188,8 @@ const Main: React.FC = () => {
       id="Home"
     >
       <div
-        className={`relative z-10 transition-all duration-1000 ${
-          isLoaded ? "opacity-100" : "opacity-0"
-        }`}
+        className={`relative z-10 transition-all duration-1000 ${isLoaded ? "opacity-100" : "opacity-0"
+          }`}
       >
         <div className="container mx-auto min-h-screen">
           <div className="flex flex-col lg:flex-row items-center justify-center h-screen md:justify-between gap-0 sm:gap-12 lg:gap-20">
@@ -224,8 +221,8 @@ const Main: React.FC = () => {
                   data-aos="fade-up"
                   data-aos-delay="1000"
                 >
-                  Creating innovative, functional, and user-friendly websites
-                  for digital solutions.
+                  Criação de sites e aplicativos inovadores, funcionais e fáceis de usar
+                  para soluções digitais.
                 </p>
 
                 {/* Tech Stack */}
@@ -247,10 +244,10 @@ const Main: React.FC = () => {
                 >
                   <CTAButton
                     href="#Portfolio"
-                    text="Projects"
+                    text="Projetos"
                     icon={ExternalLink}
                   />
-                  <CTAButton href="#Contact" text="Contact" icon={Mail} />
+                  <CTAButton href="#Contact" text="Contato" icon={Mail} />
                 </div>
 
                 {/* Social Links */}
@@ -276,28 +273,24 @@ const Main: React.FC = () => {
             >
               <div className="relative w-full opacity-90">
                 <div
-                  className={`absolute inset-0 bg-gradient-to-r from-[#6366f1]/10 to-[#a855f7]/10 rounded-3xl blur-3xl transition-all duration-700 ease-in-out ${
-                    isHovering ? "opacity-50 scale-105" : "opacity-20 scale-100"
-                  }`}
+                  className={`absolute inset-0 bg-gradient-to-r from-[#6366f1]/10 to-[#a855f7]/10 rounded-3xl blur-3xl transition-all duration-700 ease-in-out ${isHovering ? "opacity-50 scale-105" : "opacity-20 scale-100"
+                    }`}
                 ></div>
 
                 <div
-                  className={`relative lg:left-12 z-10 w-full opacity-90 transform transition-transform duration-500 ${
-                    isHovering ? "scale-105" : "scale-100"
-                  }`}
+                  className={`relative lg:left-12 z-10 w-full opacity-90 transform transition-transform duration-500 ${isHovering ? "scale-105" : "scale-100"
+                    }`}
                 >
                   <DotLottieReact {...lottieOptions} />
                 </div>
 
                 <div
-                  className={`absolute inset-0 pointer-events-none transition-all duration-700 ${
-                    isHovering ? "opacity-50" : "opacity-20"
-                  }`}
+                  className={`absolute inset-0 pointer-events-none transition-all duration-700 ${isHovering ? "opacity-50" : "opacity-20"
+                    }`}
                 >
                   <div
-                    className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-gradient-to-br from-indigo-500/10 to-purple-500/10 blur-3xl animate-[pulse_6s_cubic-bezier(0.4,0,0.6,1)_infinite] transition-all duration-700 ${
-                      isHovering ? "scale-110" : "scale-100"
-                    }`}
+                    className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-gradient-to-br from-indigo-500/10 to-purple-500/10 blur-3xl animate-[pulse_6s_cubic-bezier(0.4,0,0.6,1)_infinite] transition-all duration-700 ${isHovering ? "scale-110" : "scale-100"
+                      }`}
                   ></div>
                 </div>
               </div>
