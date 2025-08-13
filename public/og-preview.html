@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #030014 0%, #1e1b4b 50%, #6366f1 100%);
+            width: 1200px;
+            height: 630px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .decorative-circle {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.3;
+        }
+        
+        .circle1 {
+            width: 120px;
+            height: 120px;
+            background: #6366f1;
+            top: 50px;
+            left: 50px;
+        }
+        
+        .circle2 {
+            width: 160px;
+            height: 160px;
+            background: #8b5cf6;
+            bottom: 50px;
+            right: 50px;
+            opacity: 0.2;
+        }
+        
+        .circle3 {
+            width: 80px;
+            height: 80px;
+            background: #06b6d4;
+            bottom: 150px;
+            left: 150px;
+            opacity: 0.4;
+        }
+        
+        .main-title {
+            font-size: 72px;
+            font-weight: bold;
+            background: linear-gradient(90deg, #8b5cf6, #06b6d4);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .subtitle {
+            font-size: 36px;
+            margin-bottom: 30px;
+            opacity: 0.9;
+            text-align: center;
+        }
+        
+        .tech-stack {
+            font-size: 24px;
+            color: #06b6d4;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        
+        .logo-circle {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(135deg, #8b5cf6, #06b6d4);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            font-weight: bold;
+            color: white;
+            border: 3px solid white;
+            margin-bottom: 30px;
+        }
+        
+        .bottom-text {
+            font-size: 18px;
+            opacity: 0.7;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="decorative-circle circle1"></div>
+    <div class="decorative-circle circle2"></div>
+    <div class="decorative-circle circle3"></div>
+    
+    <div class="main-title">Rodrigo Kunrath</div>
+    <div class="subtitle">Desenvolvedor Full Stack</div>
+    <div class="tech-stack">React • Next.js • Node.js • TypeScript</div>
+    <div class="logo-circle">RK</div>
+    <div class="bottom-text">Portfolio & Projetos</div>
+</body>
+</html>
