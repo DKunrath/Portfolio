@@ -73,7 +73,7 @@ const Skills: React.FC = () => {
             data-aos-duration="600"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#6366f1] to-[#a855f7]">
-              Tecnologias
+              Technologies
             </h2>
           </div>
           <p
@@ -81,7 +81,7 @@ const Skills: React.FC = () => {
             data-aos="zoom-in-up"
             data-aos-duration="800"
           >
-            Aqui estão as tecnologias e ferramentas com as quais trabalho para dar vida às ideias.
+            Here are the technologies and tools I work with to bring ideas to life.
           </p>
         </div>
 
@@ -111,8 +111,8 @@ const Skills: React.FC = () => {
         >
           <div className="bg-white/[0.02] backdrop-blur-xl rounded-2xl p-8 border border-white/10 inline-block">
             <p className="text-gray-300 font-medium">
-              Sempre aprendendo e explorando novas tecnologias para me manter
-              atualizado com as tendências do setor.
+              Always learning and exploring new technologies to stay
+              updated with industry trends.
             </p>
           </div>
         </div>

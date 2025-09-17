@@ -19,11 +19,11 @@ interface SEOProps {
 
 const defaultSEO = {
   title:
-    "Rodrigo Kunrath | Portfólio Desenvolvedor Fullstack | React, Next.js, TypeScript",
+    "Rodrigo Kunrath | Portfolio Full Stack Developer | React, Next.js, TypeScript",
   description:
-    "Desenvolvedor Fullstack especializado em React, Next.js, TypeScript e tecnologias modernas da web. Veja meu portfólio de projetos inovadores e entre em contato para oportunidades de colaboração.",
+    "Full Stack Developer specialized in React, Next.js, TypeScript and modern web technologies. See my portfolio of innovative projects and get in touch for collaboration opportunities.",
   keywords:
-    "Desenvolvedor Fullstack, Desenvolvedor React, Desenvolvedor Next.js, Desenvolvedor TypeScript, Desenvolvedor Web, Desenvolvedor Frontend, Desenvolvedor Backend, Portfólio, Rodrigo Kunrath",
+    "Full Stack Developer, React Developer, Next.js Developer, TypeScript Developer, Web Developer, Frontend Developer, Backend Developer, Portfolio, Rodrigo Kunrath",
   image: "https://portfolio-tan-sigma-e79hkh9jwa.vercel.app/assets/skills/profile.jpeg",
   url: "https://portfolio-tan-sigma-e79hkh9jwa.vercel.app",
   type: "website" as const,
@@ -45,7 +45,7 @@ export const SEO: React.FC<SEOProps> = ({
   structuredData,
   children,
 }) => {
-  const siteName = "Rodrigo Kunrath Portfólio";
+  const siteName = "Rodrigo Kunrath Portfolio";
   const twitterHandle = "@rodrigokunrath";
 
   // Default structured data if none provided
@@ -53,7 +53,7 @@ export const SEO: React.FC<SEOProps> = ({
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Rodrigo Kunrath",
-    jobTitle: "Desenvolvedor Fullstack",
+    jobTitle: "Full Stack Developer",
     description: description,
     url: url,
     image: image,
@@ -68,11 +68,11 @@ export const SEO: React.FC<SEOProps> = ({
       "JavaScript",
       "Node.js",
       "SQL",
-      "Desenvolvimento Fullstack",
-      "Desenvolvimento Web",
-      "Desenvolvimento Frontend",
-      "Desenvolvimento Backend",
-      "Tecnologias Modernas da Web",
+      "Full Stack Development",
+      "Web Development",
+      "Frontend Development",
+      "Backend Development",
+      "Modern Web Technologies",
     ],
     worksFor: {
       "@type": "Organization",

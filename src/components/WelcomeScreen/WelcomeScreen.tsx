@@ -144,21 +144,21 @@ const WelcomeScreen: React.FC<WelcomeScreenProps> = ({ onLoadingComplete }) => {
                       data-aos-delay="200"
                       className="inline-block px-2 bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent"
                     >
-                      Bem Vindo
+                      Welcome
                     </span>{" "}
                     <span
                       data-aos="fade-right"
                       data-aos-delay="400"
                       className="inline-block px-2 bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent"
                     >
-                      Ao
+                      To
                     </span>{" "}
                     <span
                       data-aos="fade-right"
                       data-aos-delay="600"
                       className="inline-block px-2 bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent"
                     >
-                      Meu
+                      My
                     </span>
                   </div>
                   <div>
@@ -174,7 +174,7 @@ const WelcomeScreen: React.FC<WelcomeScreenProps> = ({ onLoadingComplete }) => {
                       data-aos-delay="1000"
                       className="inline-block px-2 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent"
                     >
-                      Portfólio
+                      Portfolio
                     </span>
                   </div>
                 </h1>

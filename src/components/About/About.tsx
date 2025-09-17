@@ -20,7 +20,7 @@ const Header = memo(() => (
         data-aos="zoom-in-up"
         data-aos-duration="600"
       >
-        Sobre Mim
+        About me
       </h2>
     </div>
     <p
@@ -29,7 +29,7 @@ const Header = memo(() => (
       data-aos-duration="800"
     >
       <Sparkles className="w-5 h-5 text-purple-400" />
-      Transformando ideias em experiências digitais
+      Transforming ideas into digital experiences
       <Sparkles className="w-5 h-5 text-purple-400" />
     </p>
   </div>
@@ -193,8 +193,8 @@ const About: React.FC = () => {
         icon: Code,
         color: "from-[#6366f1] to-[#a855f7]",
         value: totalProjects,
-        label: "Total de Projetos",
-        description: "Soluções web e aplicativos inovadores criados",
+        label: "Total Projects",
+        description: "Innovative web solutions and applications created",
         animation: "fade-right",
       },
       //   {
@@ -209,8 +209,8 @@ const About: React.FC = () => {
         icon: Globe,
         color: "from-[#6366f1] to-[#a855f7]",
         value: YearExperience,
-        label: "Anos de Experiência",
-        description: "Jornada de aprendizado contínuo",
+        label: "Years of Experience",
+        description: "Continuous learning journey",
         animation: "fade-left",
       },
     ],
@@ -234,7 +234,7 @@ const About: React.FC = () => {
                 data-aos-duration="1000"
               >
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6366f1] to-[#a855f7]">
-                  Olá, eu sou
+                  Hello, I am
                 </span>
                 <span
                   className="block mt-2 text-gray-200"
@@ -250,11 +250,10 @@ const About: React.FC = () => {
                 data-aos="fade-right"
                 data-aos-duration="1500"
               >
-                Olá a todos, eu sou Rodrigo Kunrath e moro em
-                Campo Bom, Brasil. Atualmente trabalho como Engenheiro de
-                Software Full Stack na Cigam. Sou apaixonado
-                por criar soluções web inovadoras e transformar ideias
-                em experiências digitais impactantes.
+                Hello everyone, I&apos;m Rodrigo Kunrath and I live in
+                Campo Bom, Brazil. I currently work as a Full Stack Software Engineer at Cigam. I&apos;m passionate
+                about creating innovative web solutions and transforming ideas
+                into impactful digital experiences.
               </p>
 
               {/* Quote Section */}
@@ -280,8 +279,8 @@ const About: React.FC = () => {
                 </div>
 
                 <blockquote className="text-gray-300 text-center lg:text-left italic font-medium text-sm relative z-10 pl-6">
-                  &ldquo;Aproveitando a IA como uma ferramenta profissional, não como
-                  substituta.&rdquo;
+                  &ldquo;Leveraging AI as a professional tool, not as a
+                  replacement.&rdquo;
                 </blockquote>
               </div>
 
@@ -307,7 +306,7 @@ const About: React.FC = () => {
                     data-aos-duration="1000"
                     className="w-full lg:w-auto sm:px-6 py-2 sm:py-3 rounded-lg border border-[#a855f7]/50 text-[#a855f7] font-medium transition-all duration-300 hover:scale-105 flex items-center justify-center lg:justify-start gap-2 hover:bg-[#a855f7]/10 "
                   >
-                    <Code className="w-4 h-4 sm:w-5 sm:h-5" /> Ver Projetos
+                    <Code className="w-4 h-4 sm:w-5 sm:h-5" /> View Projects
                   </button>
                 </a>
               </div>

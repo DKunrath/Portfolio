@@ -3,9 +3,9 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const navItems = [
   { href: "#Home", label: "Home" },
-  { href: "#About", label: "Sobre" },
-  { href: "#Portfolio", label: "Portfólio" },
-  { href: "#Contact", label: "Contato" },
+  { href: "#About", label: "About" },
+  { href: "#Portfolio", label: "Portfolio" },
+  { href: "#Contact", label: "Contact" },
 ];
 
 const Navbar: React.FC = () => {

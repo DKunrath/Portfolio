@@ -139,7 +139,7 @@ const CardProject = memo<{ project: Project; index: number }>(
                   </a>
                 ) : (
                   <span className="text-gray-500 text-sm">
-                    Demo Não Disponível
+                    Demo Not Available
                   </span>
                 )}
 
@@ -149,7 +149,7 @@ const CardProject = memo<{ project: Project; index: number }>(
                   rel="noopener noreferrer"
                   className="inline-flex items-center space-x-2 px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 text-white/90 transition-all duration-200 hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-purple-500/50"
                 >
-                  <span className="text-sm font-medium">Detalhes</span>
+                  <span className="text-sm font-medium">Details</span>
                   <ArrowRight className="w-4 h-4" />
                 </a>
               </div>
@@ -172,49 +172,49 @@ const Projects: React.FC = () => {
         id: 1,
         title: "Emolink",
         description:
-          "O EmoLink é um aplicativo de crescimento pessoal que conecta lições diárias com exercícios interativos criados por IA, ajudando os usuários a aplicar o que aprendem na vida real. Ele oferece atividades envolventes projetadas para impulsionar a autoconsciência, as habilidades emocionais e o desenvolvimento pessoal.",
+          "EmoLink is a personal growth app that connects daily lessons with AI-created interactive exercises, helping users apply what they learn in real life. It offers engaging activities designed to boost self-awareness, emotional skills, and personal development.",
         technologies: ["React Native", "Tailwind", "Node.js", "JavaScript", "Expo"],
         githubUrl: "https://github.com/DKunrath/EmoLink",
         liveUrl: "https://testflight.apple.com/join/DDT4rU44",
         image: "/assets/skills/emolink.png",
         featured: true,
         features: [
-          "Chat em tempo real com a Dra.",
-          "Rastreamento de humor diário",
-          "Desafios diários criados por IA",
-          "Prêmios",
+          "Real-time chat with Dr.",
+          "Daily mood tracking",
+          "AI-created daily challenges",
+          "Awards",
         ],
       },
       {
         id: 2,
-        title: "Plataforma de Xadrez com Pagamentos em Criptomoeda",
+        title: "Chess Platform with Cryptocurrency Payments",
         description:
-          "Uma plataforma baseada na web para jogar xadrez com pagamentos em criptomoeda integrados para recursos premium.",
+          "A web-based platform for playing chess with integrated cryptocurrency payments for premium features.",
         technologies: ["React", "Node.js", "Express", "Supabase"],
         githubUrl: "https://github.com/DKunrath/ChessStake",
         image: "/assets/skills/chess.png",
         featured: true,
         features: [
-          "Algoritmo Minimax",
-          "Poda Alpha-beta",
-          "IA Inabalável",
-          "Interface limpa",
+          "Minimax Algorithm",
+          "Alpha-beta Pruning",
+          "Unbeatable AI",
+          "Clean Interface",
         ],
       },
       {
         id: 3,
         title: "Velvet Match",
         description:
-          "Uma plataforma de chat +18 projetada para um cliente Freelance.",
+          "An 18+ chat platform designed for a Freelance client.",
         technologies: ["React", "Node.js", "Express", "Supabase"],
         githubUrl: "https://github.com/DKunrath/ChatPlatform",
         image: "/assets/skills/velvetmatch.png",
         featured: true,
         features: [
-          "Chat em tempo real com modelos",
-          "Autenticação de usuário",
-          "Responsivo para dispositivos móveis",
-          "Processamento seguro de pagamentos",
+          "Real-time chat with models",
+          "User authentication",
+          "Mobile responsive",
+          "Secure payment processing",
         ],
       },
     ],
@@ -259,7 +259,7 @@ const Projects: React.FC = () => {
             data-aos-duration="600"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#6366f1] to-[#a855f7]">
-              Portfólio
+              Portfolio
             </h2>
           </div>
           <p
@@ -267,8 +267,8 @@ const Projects: React.FC = () => {
             data-aos="zoom-in-up"
             data-aos-duration="800"
           >
-            Aqui estão alguns dos meus projetos favoritos que mostram minhas habilidades e
-            paixão pelo desenvolvimento
+            Here are some of my favorite projects that showcase my skills and
+            passion for development
           </p>
         </div>
 
@@ -279,7 +279,7 @@ const Projects: React.FC = () => {
             data-aos="fade-up"
             data-aos-duration="600"
           >
-            Projetos em Destaque
+            Featured Projects
           </h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {featuredProjects.map((project, index) => (
@@ -296,10 +296,10 @@ const Projects: React.FC = () => {
         >
           <div className="bg-white/[0.02] backdrop-blur-xl rounded-2xl p-8 border border-white/10 inline-block">
             <h3 className="text-xl font-bold text-white mb-4">
-              Quer ver mais?
+              Want to see more?
             </h3>
             <p className="text-gray-400 mb-6">
-              Confira meu perfil no GitHub para mais projetos e contribuições
+              Check out my GitHub profile for more projects and contributions
             </p>
             <a
               href="https://github.com/DKunrath"
@@ -308,7 +308,7 @@ const Projects: React.FC = () => {
               className="inline-flex items-center gap-2 bg-gradient-to-r from-[#6366f1] to-[#a855f7] text-white px-6 py-3 rounded-xl font-semibold hover:from-[#6366f1]/80 hover:to-[#a855f7]/80 transition-all duration-300 hover:scale-105 shadow-lg shadow-purple-500/25"
             >
               <Github className="text-lg" />
-              Ver Perfil do GitHub
+              View GitHub Profile
             </a>
           </div>
         </div>

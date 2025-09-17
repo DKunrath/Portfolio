@@ -87,8 +87,8 @@ const Contact: React.FC = () => {
     },
     {
       icon: FaMapMarkerAlt,
-      label: "Localização",
-      value: "Campo Bom, Brasil",
+      label: "Location",
+      value: "Campo Bom, Brazil",
       href: "#",
       color: "text-green-400",
     },
@@ -148,14 +148,14 @@ const Contact: React.FC = () => {
                     Desenvolvedor Fullstack
                   </p>
                   <p className="text-gray-400 leading-relaxed">
-                    {`Estou sempre empolgado para discutir novas oportunidades, colaborar em projetos interessantes ou simplesmente me conectar com outros desenvolvedores.`}
+                    {`I'm always excited to discuss new opportunities, collaborate on interesting projects, or simply connect with other developers.`}
                   </p>
                 </div>
 
                 {/* Contact Methods */}
                 <div className="space-y-4">
                   <h3 className="font-semibold text-white text-lg">
-                    Entre em contato
+                    Get in touch
                   </h3>
                   <div className="space-y-3">
                     {contactMethods.map((method, index) => (
@@ -237,11 +237,11 @@ const Contact: React.FC = () => {
               <div className="space-y-6">
                 <div>
                   <h3 className="text-2xl font-bold text-white mb-2">
-                    Envie-me uma mensagem
+                    Send me a message
                   </h3>
                   <p className="text-gray-400">
-                    Preencha o formulário abaixo e eu retornarei assim que
-                    possível.
+                    Fill out the form below and I&apos;ll get back to you as soon as
+                    possible.
                   </p>
                 </div>
 
@@ -249,7 +249,7 @@ const Contact: React.FC = () => {
                   <div className="grid md:grid-cols-2 gap-6">
                     <div className="space-y-2">
                       <label className="block text-sm font-semibold text-gray-300">
-                        Nome *
+                        Name *
                       </label>
                       <input
                         className="w-full border-2 border-white/10 rounded-xl p-4 focus:border-[#a855f7] focus:outline-none transition-colors duration-300 bg-white/5 text-white placeholder-gray-400"
@@ -258,7 +258,7 @@ const Contact: React.FC = () => {
                         value={formData.name}
                         onChange={handleInputChange}
                         required
-                        placeholder="Seu nome completo"
+                        placeholder="Your full name"
                       />
                     </div>
 
@@ -273,7 +273,7 @@ const Contact: React.FC = () => {
                         value={formData.email}
                         onChange={handleInputChange}
                         required
-                        placeholder="seu.email@exemplo.com"
+                        placeholder="your.email@example.com"
                       />
                     </div>
                   </div>
@@ -288,13 +288,13 @@ const Contact: React.FC = () => {
                       name="subject"
                       value={formData.subject}
                       onChange={handleInputChange}
-                      placeholder="Sobre o que é isso?"
+                      placeholder="What is this about?"
                     />
                   </div>
 
                   <div className="space-y-2">
                     <label className="block text-sm font-semibold text-gray-300">
-                      Mensagem   *
+                      Message *
                     </label>
                     <textarea
                       className="w-full border-2 border-white/10 rounded-xl p-4 focus:border-[#a855f7] focus:outline-none transition-colors duration-300 bg-white/5 text-white placeholder-gray-400 resize-none"
@@ -303,7 +303,7 @@ const Contact: React.FC = () => {
                       value={formData.message}
                       onChange={handleInputChange}
                       required
-                      placeholder="Me fale sobre seu projeto ou apenas diga olá!"
+                      placeholder="Tell me about your project or just say hello!"
                     ></textarea>
                   </div>
 
@@ -311,7 +311,7 @@ const Contact: React.FC = () => {
                     type="submit"
                     className="w-full p-4 text-white font-semibold text-lg rounded-xl bg-gradient-to-r from-[#6366f1] to-[#a855f7] hover:from-[#6366f1]/80 hover:to-[#a855f7]/80 shadow-lg shadow-purple-500/25 hover:shadow-xl hover:shadow-purple-500/40 hover:scale-105 transition-all duration-300"
                   >
-                    Enviar Mensagem
+                    Send Message
                   </button>
                 </form>
               </div>

@@ -16,7 +16,7 @@ const StatusBadge = memo(() => (
       <div className="relative px-3 sm:px-4 py-2 rounded-full bg-black/40 backdrop-blur-xl border border-white/10">
         <span className="bg-gradient-to-r from-[#6366f1] to-[#a855f7] text-transparent bg-clip-text sm:text-sm text-[0.7rem] font-medium flex items-center">
           <Sparkles className="sm:w-4 sm:h-4 w-3 h-3 mr-2 text-blue-400" />
-          Pronto para Inovar
+          Ready to innovate
         </span>
       </div>
     </div>
@@ -31,14 +31,14 @@ const MainTitle = memo(() => (
       <span className="relative inline-block mt-2">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#6366f1] to-[#a855f7] blur-2xl opacity-20"></span>
         <span className="relative bg-gradient-to-r from-[#6366f1] to-[#a855f7] bg-clip-text text-transparent">
-          Desenvolvedor
+          Full Stack
         </span>
       </span>
       <br />
       <span className="relative inline-block">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#6366f1] to-[#a855f7] blur-2xl opacity-20"></span>
         <span className="relative bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
-          Fullstack
+          Developer
         </span>
       </span>
     </h1>
@@ -103,7 +103,7 @@ SocialLink.displayName = "SocialLink";
 const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
-const WORDS = ["Desenvolvedor Fullstack", "Entusiasta de Tecnologia", "Desenvolvedor de Aplicativos"];
+const WORDS = ["Full Stack Developer", "Technology Enthusiast", "App Developer"];
 const TECH_STACK = ["React", "Next.js", "Node.js", "TypeScript", "React Native"];
 const SOCIAL_LINKS = [
   { icon: Github, link: "https://github.com/DKunrath" },
@@ -221,8 +221,8 @@ const Main: React.FC = () => {
                   data-aos="fade-up"
                   data-aos-delay="1000"
                 >
-                  Criação de sites e aplicativos inovadores, funcionais e fáceis de usar
-                  para soluções digitais.
+                  Creating innovative, functional and user-friendly websites and applications
+                  for digital solutions.
                 </p>
 
                 {/* Tech Stack */}
@@ -244,10 +244,10 @@ const Main: React.FC = () => {
                 >
                   <CTAButton
                     href="#Portfolio"
-                    text="Projetos"
+                    text="Projects"
                     icon={ExternalLink}
                   />
-                  <CTAButton href="#Contact" text="Contato" icon={Mail} />
+                  <CTAButton href="#Contact" text="Contact" icon={Mail} />
                 </div>
 
                 {/* Social Links */}
